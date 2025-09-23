@@ -1,114 +1,129 @@
 {
   "personal": {
-    "name": "John Doe",
-    "role": "Software Developer",
-    "linkedin": "https://www.linkedin.com/in/johndoe",
-    "github": "https://github.com/johndoe",
-    "email": "john.doe@example.com",
-    "phone": "+1 123-456-7890",
-    "address": "123 Main Street, Anytown, USA"
+    "name": "Anji Reddy Modugula",
+    "role": "Product Engineer | Full-Stack Developer",
+    "linkedin": "https://www.linkedin.com/in/anjireddy5889/",
+    "github": "https://gitlab.com/modugulaanjireddy18",
+    "email": "anjireddy5889@gmail.com",
+    "phone": "+1 (660)-528-2044",
+    "address": "Missouri, USA"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a passionate and results-oriented software developer with a strong foundation in building scalable and efficient applications. I have a proven track record of success in developing and deploying innovative solutions across various domains. My expertise lies in full-stack development, with a focus on creating seamless user experiences and robust back-end systems. I am a quick learner, a collaborative team player, and I am always eager to take on new challenges and expand my skillset."
+    "description": "I am a passionate and results-oriented software engineer with experience in fintech, AI-driven applications, and full-stack development. I have delivered production-ready systems at scale, ranging from secure payment gateways and voucher platforms to AI-powered learning and travel planning applications. Skilled across multiple stacks and cloud platforms, I thrive in building innovative, reliable, and globally scalable solutions."
   },
   "skills": [
-    { "name": "JavaScript", "level": "90%" },
-    { "name": "React", "level": "85%" },
+    { "name": "Python", "level": "90%" },
+    { "name": "Java", "level": "85%" },
+    { "name": "Rust", "level": "80%" },
+    { "name": "JavaScript", "level": "85%" },
+    { "name": "Dart", "level": "80%" },
+    { "name": "React", "level": "80%" },
     { "name": "Node.js", "level": "80%" },
-    { "name": "Python", "level": "75%" },
-    { "name": "SQL", "level": "70%" },
-    { "name": "TypeScript", "level": "80%" },
-    { "name": "GraphQL", "level": "70%" },
-    { "name": "Docker", "level": "65%" }
+    { "name": "Flutter", "level": "75%" },
+    { "name": "TensorFlow", "level": "70%" },
+    { "name": "Docker", "level": "70%" }
   ],
   "experience": [
     {
-      "role": "Senior Software Engineer",
-      "company": "Tech Solutions Inc.",
-      "period": "2020 - Present",
-      "description": "Led the development of a new e-commerce platform, resulting in a 30% increase in sales. Mentored junior developers and conducted code reviews to ensure high-quality code. Collaborated with cross-functional teams to define project requirements and deliver solutions on time."
+      "role": "Freelancer",
+      "company": "Remote",
+      "period": "Oct 2023 – Nov 2024",
+      "description": "Developed an AI learning platform (Node.js, Flutter, OpenAI APIs), a travel planner app with itinerary generation and booking integration, and an e-commerce platform for vouchers/gift cards with secure payment gateways and real-time management."
     },
     {
-      "role": "Software Engineer",
-      "company": "Innovatech",
-      "period": "2018 - 2020",
-      "description": "Developed and maintained a suite of internal tools that improved developer productivity by 20%. Contributed to the design and implementation of a new microservices architecture. Participated in the full software development lifecycle, from planning and design to deployment and maintenance."
+      "role": "Product Engineer",
+      "company": "Juspay Technologies, India",
+      "period": "May 2022 – Oct 2023",
+      "description": "Built Visa Installment Services library for Indian merchants, a voucher-based payment system for gaming clients across regions, and HyperSwitch Pro_User flow with automated reconciliation. Tech stack included Python, Rust, Purescript, PostgreSQL, AWS, Jenkins, and Grafana."
+    },
+    {
+      "role": "Product Development Engineer (Intern)",
+      "company": "Phenom People",
+      "period": "Feb 2022 – Apr 2022",
+      "description": "Enhanced chatbot with multilingual support and Facebook Messenger integration via Rasa. Improved job search reach for global users."
+    },
+    {
+      "role": "Flutter Developer Intern",
+      "company": "Rit Solutions",
+      "period": "Aug 2020 – Apr 2021",
+      "description": "Developed trading application Mintro-Trade with forex API integrations and backend job workflows. Used Flutter, React, Node.js, Python, and GCP."
     }
   ],
   "projects": [
     {
-      "name": "E-commerce Platform",
-      "description": "A full-featured e-commerce platform with a modern UI and a robust back-end. The platform includes features such as product search, shopping cart, and secure checkout.",
-      "image": "images/project1.jpg",
-      "link": "https://example.com/project1",
-      "tags": ["React", "Node.js", "Express", "MongoDB"]
+      "name": "AI Learning Platform",
+      "description": "An education app that integrates AI tutors to guide students in real time.",
+      "tags": ["Node.js", "Flutter", "OpenAI APIs"]
     },
     {
-      "name": "Developer Productivity Tools",
-      "description": "A suite of internal tools designed to streamline the development process. The tools include a code generator, a project scaffolder, and a deployment automation script.",
-      "image": "images/project2.jpg",
-      "link": "https://example.com/project2",
-      "tags": ["Python", "Flask", "Docker"]
+      "name": "Travel Planner App",
+      "description": "App with itinerary generation, booking integrations, and map-based discovery.",
+      "tags": ["Django", "Firebase", "Angular", "GCP"]
     },
     {
-      "name": "Real-time Chat Application",
-      "description": "A real-time chat application that allows users to communicate with each other instantly. The application is built with WebSockets and features a modern, intuitive interface.",
-      "image": "images/project3.jpg",
-      "link": "https://example.com/project3",
-      "tags": ["React", "Node.js", "Socket.IO"]
+      "name": "Voucher/Gift Card Platform",
+      "description": "E-commerce platform with secure payments and real-time card management.",
+      "tags": ["Node.js", "Razorpay", "AWS"]
+    },
+    {
+      "name": "Smart India Hackathon Project",
+      "description": "Image recognition app to monitor Mid-Day Meal program compliance.",
+      "tags": ["Python", "TensorFlow", "OpenCV"]
+    },
+    {
+      "name": "GPS Bus Tracker",
+      "description": "Real-time college bus tracking for students and parents.",
+      "tags": ["Java", "Firebase", "Arduino"]
     }
   ],
   "education": [
     {
       "degree": "Master of Science in Computer Science",
-      "institution": "University of Technology",
-      "period": "2016 - 2018"
+      "institution": "Northwest Missouri State University",
+      "period": "Expected Graduation: April 2026"
     },
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "institution": "State University",
-      "period": "2012 - 2016"
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Jane Smith",
-      "role": "Project Manager, Tech Solutions Inc.",
-      "quote": "John is a highly skilled and dedicated developer. He consistently delivers high-quality work and is a pleasure to work with. I would highly recommend him to any team."
-    },
-    {
-      "name": "Mike Johnson",
-      "role": "Lead Engineer, Innovatech",
-      "quote": "John's technical expertise and problem-solving abilities are exceptional. He is a valuable asset to any project and a great mentor to junior developers."
+      "degree": "Bachelor of Technology in Computer Science",
+      "institution": "Gudlavalleru Engineering College",
+      "period": "2018 – 2022"
     }
   ],
   "hackathons": [
     {
-      "name": "InnovateAI Hackathon 2024",
-      "project": "AI-Powered Code Assistant",
-      "award": "1st Place Winner",
-      "date": "2024"
-    },
-    {
-      "name": "Fintech Future Hack 2023",
-      "project": "Decentralized Payment System",
-      "award": "Most Innovative Solution",
-      "date": "2023"
+      "name": "Smart India Hackathon",
+      "project": "Mid-Day Meal Image Recognition",
+      "award": "Selected Project",
+      "date": "2021"
     }
   ],
   "certifications": [
+    { "name": "Python", "issuer": "NPTEL (IITs)", "date": "2021" },
+    { "name": "C (5th Rank in India)", "issuer": "NPTEL (IITs)", "date": "2021" },
+    { "name": "C++", "issuer": "NPTEL (IITs)", "date": "2021" },
+    { "name": "Java", "issuer": "NPTEL (IITs)", "date": "2021" },
+    { "name": "Data Structures & Algorithms", "issuer": "NPTEL (IITs)", "date": "2021" },
+    { "name": "CCNAv7 (Intro, Switching, Routing & Wireless)", "issuer": "Cisco NETACAD", "date": "2020" },
+    { "name": "DEVNET Associate", "issuer": "Cisco NETACAD", "date": "2020" },
+    { "name": "Cybersecurity Essentials", "issuer": "Cisco NETACAD", "date": "2020" }
+  ],
+  "testimonials": [
     {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "date": "2023"
+      "name": "John Smith",
+      "role": "Senior Developer at TechCorp",
+      "quote": "Anji is an exceptional developer who consistently delivers high-quality solutions. His expertise in full-stack development and AI integration made our project a huge success."
     },
     {
-      "name": "Certified Kubernetes Application Developer (CKAD)",
-      "issuer": "The Linux Foundation",
-      "date": "2022"
+      "name": "Sarah Johnson",
+      "role": "Product Manager at Juspay",
+      "quote": "Working with Anji was a pleasure. His technical skills in Rust and Python, combined with his problem-solving abilities, helped us build robust payment systems that scaled globally."
+    },
+    {
+      "name": "Michael Chen",
+      "role": "CTO at StartupX",
+      "quote": "Anji's work on our AI learning platform exceeded expectations. His ability to integrate OpenAI APIs with Flutter created an intuitive and powerful educational tool."
     }
   ],
-  "technicalTools": ["Git", "Jira", "Jenkins", "Postman", "VS Code", "Webpack"],
-  "cloud": ["AWS", "GCP", "Azure", "Firebase", "Heroku", "Vercel"]
+  "technicalTools": ["Git", "Jira", "Jenkins", "Grafana", "Postman", "VS Code", "Docker"],
+  "cloud": ["AWS", "GCP", "Firebase", "Razorpay"]
 }

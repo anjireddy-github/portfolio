@@ -5,7 +5,11 @@ import data from '../data/data.json';
 import '../styles/main.css';
 
 const Testimonials = () => {
-  const testimonials = data.testimonials;
+  const testimonials = data.testimonials || [];
+
+  if (!testimonials.length) {
+    return null; // Don't render the section if no testimonials
+  }
 
   return (
     <section>

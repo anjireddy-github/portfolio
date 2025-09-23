@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/Header';
@@ -15,7 +14,6 @@ import Cloud from './components/Cloud';
 import Contact from './components/Contact';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import BackgroundAnimation from './components/BackgroundAnimation';
-import Cursor from './components/Cursor';
 import ScrollToTop from './components/ScrollToTop';
 import './styles/main.css';
 
@@ -24,6 +22,8 @@ const App = () => {
 
   useEffect(() => {
     document.body.className = theme;
+    // Ensure default cursor is visible
+    document.body.style.cursor = 'auto';
   }, [theme]);
 
   const sectionVariants = {
@@ -32,8 +32,7 @@ const App = () => {
   };
 
   return (
-    <div>
-      <Cursor />
+    <div style={{ cursor: 'auto' }}>
       <BackgroundAnimation />
       <ThemeSwitcher setTheme={setTheme} />
       <ScrollToTop />
@@ -67,6 +66,7 @@ const App = () => {
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={sectionVariants}>
         <Education />
       </motion.div>
+      
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={sectionVariants}>
         <Testimonials />
       </motion.div>
